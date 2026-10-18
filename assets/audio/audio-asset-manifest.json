@@ -1,20 +1,24 @@
 {
-  "manifest_version": "1.0",
+  "manifest_version": "2.0",
   "asset_root": "assets/audio/",
+  "music": {
+    "bgm": { "file": "chill-lofi.ogg", "volume": 0.6, "loop": true }
+  },
+  "ambience": {
+    "birds": { "file": "birds.ogg", "loop": true, "target_rms": 0.05, "when": "day" },
+    "wind":  { "file": "wind.ogg",  "loop": true, "target_rms": 0.04, "when": "night" },
+    "river": { "file": "river.ogg", "loop": true, "target_rms": 0.06, "when": "near the coast" }
+  },
   "effects": {
-    "footstep": {
-      "file": "step.ogg",
-      "trigger_frames": [1, 5],
-      "animation": "walk",
-      "fps": 10
+    "step": {
+      "file": "footstep sound.mp3",
+      "animation": "walk", "fps": 10, "trigger_frames": [1, 4],
+      "slices": [0.53, 1.31, 1.89, 2.57, 3.11, 3.81, 4.41, 5.07, 6.33, 6.91, 7.39],
+      "slice_seconds": 0.3, "volume": 3
     },
-    "door_open": {
-      "file": "door opening and closing.mp3",
-      "offset_seconds": 0
-    },
-    "door_close": {
-      "file": "door opening and closing.mp3",
-      "offset_seconds": 0.45
-    }
+    "sit":        { "file": "footstep sound.mp3", "offset_seconds": 0.53, "duration_seconds": 0.3, "volume": 1.5 },
+    "door_open":  { "file": "door opening and closing.mp3", "offset_seconds": 0,    "duration_seconds": 0.45 },
+    "door_close": { "file": "door opening and closing.mp3", "offset_seconds": 0.45 },
+    "portal":     { "file": "door opening and closing.mp3", "offset_seconds": 0, "volume": 0.8 }
   }
 }

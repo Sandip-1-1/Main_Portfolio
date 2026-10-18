@@ -2,7 +2,7 @@ Park Ambiences by Thimras
 Source: https://opengameart.org/content/park-ambiences
 Files used: park_ambience_birds.wav, park_ambience_river.wav,
 park_ambience_wind.wav (trimmed and compressed as birds.ogg, river.ogg,
-wind.ogg; portal.ogg and step.ogg are transformed excerpts of the wind source)
+wind.ogg)
 License: Creative Commons Zero v1.0 Universal (CC0 1.0)
 
 Chill lofi inspired [loop edit]
@@ -12,3 +12,6 @@ File used: chilllofir-loop.ogg (distributed as chill-lofi.ogg)
 License: Creative Commons Zero v1.0 Universal (CC0 1.0)
 
 CC0 legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+footstep sound.mp3, door opening and closing.mp3
+Supplied with the project (footsteps are played as short slices; the door clip is split into open / close).

@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /private/tmp/claude-501/-Users-ing-Downloads-sandip-Main-Portfolio/e5d65932-00a2-45aa-8f26-435b75ba85f5/scratchpad/pw)",
+      "Bash(npm init *)",
+      "Bash(npm i *)",
+      "Read(//Users/ing/Library/Caches/ms-playwright/chromium-1234/chrome-mac-arm64/**)",
+      "Read(//Users/ing/Library/Caches/ms-playwright/chromium-1234/**)",
+      "Bash(sed -i '' \"s#Chromium.app/Contents/MacOS/Chromium#Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing#\" shot.js)",
+      "Bash(node shot.js /private/tmp/claude-501/-Users-ing-Downloads-sandip-Main-Portfolio/e5d65932-00a2-45aa-8f26-435b75ba85f5/scratchpad/s0.png '' 2000)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 tools/build_cliffs.py)",
+      "Bash(sed -i '' -e 's/b = rng.choice\\(ROCK\\), ROCK_BOTTOM + rng.randint\\(-5, 5\\)/b = rng.choice\\(ROCK\\), ROCK_BOTTOM + rng.randint\\(-2, 2\\)/' -e 's/return max\\(0, int\\(200 \\\\* \\(1 - d \\\\/ length\\)\\)\\)/return max\\(0, int\\(150 * \\(1 - d \\\\/ length\\) ** 1.5\\)\\)/' -e 's/rock = wrap_noise\\(SH, 9, 11, 8\\)/rock = wrap_noise\\(SH, 11, 13, 8\\)/' tools/build_cliffs.py && grep -n \"randint\\(-2, 2\\)\\\\|\\\\*\\\\* 1.5\\\\|11, 13\" tools/build_cliffs.py && python3 tools/build_cliffs.py)",
+      "Bash(curl -s https://cdn.jsdelivr.net/npm/phaser@3.60.0/src/gameobjects/text/Text.js)",
+      "Bash(node -e ' *)",
+      "Bash(awk '{ if \\(length\\($0\\) > 400\\) print NR\": [LONG \"length\\($0\\)\"] \"substr\\($0,1,120\\)\" ... \"substr\\($0,length\\($0\\)-150\\) }' game.js)",
+      "Bash(git rm *)",
+      "Bash(node --check game.js)",
+      "Bash(node shot.js /private/tmp/claude-501/-Users-ing-Downloads-sandip-Main-Portfolio/e5d65932-00a2-45aa-8f26-435b75ba85f5/scratchpad/t_sit.png 'const b=g.benches[1]; g.feet.body.reset\\(b.x, b.y+40\\); setTimeout\\(\\(\\)=>g.sit\\(b\\),300\\); g.cameras.main.setZoom\\(2.5\\); 1' 1500)",
+      "Bash(node shot.js /private/tmp/claude-501/-Users-ing-Downloads-sandip-Main-Portfolio/e5d65932-00a2-45aa-8f26-435b75ba85f5/scratchpad/t_sit2.png 'const b=g.benches[3]; g.feet.body.reset\\(b.x, b.y+40\\); setTimeout\\(\\(\\)=>g.sit\\(b\\),300\\); g.cameras.main.setZoom\\(3\\); 1' 1500)",
+      "Bash(node shot.js /private/tmp/claude-501/-Users-ing-Downloads-sandip-Main-Portfolio/e5d65932-00a2-45aa-8f26-435b75ba85f5/scratchpad/t_cliff.png 'g.feet.body.reset\\(13.5*48, 60*48\\); g.cameras.main.setZoom\\(2.5\\); 1' 1000)",
+      "Bash(node shot.js /private/tmp/claude-501/-Users-ing-Downloads-sandip-Main-Portfolio/e5d65932-00a2-45aa-8f26-435b75ba85f5/scratchpad/t_cliff2.png 'g.feet.body.reset\\(20*48, 62*48\\); g.cameras.main.setZoom\\(2.5\\); 1' 1000)",
+      "Bash(node shot.js /private/tmp/claude-501/-Users-ing-Downloads-sandip-Main-Portfolio/e5d65932-00a2-45aa-8f26-435b75ba85f5/scratchpad/t_dbg.png 'g.feet.body.reset\\(13.5*48, 60*48\\); g.cameras.main.setZoom\\(2.5\\); g.children.list.filter\\(o=>o.texture&&o.texture.key==='\\\\''cliffs'\\\\''\\).forEach\\(o=>o.setVisible\\(false\\)\\); g.children.list.filter\\(o=>o.texture&&o.texture.key==='\\\\''nt'\\\\''&&o.frame.name==='\\\\''rimh'\\\\''\\).length' 1000)",
+      "Bash(node shot.js /private/tmp/claude-501/-Users-ing-Downloads-sandip-Main-Portfolio/e5d65932-00a2-45aa-8f26-435b75ba85f5/scratchpad/t_dbg2.png 'g.feet.body.reset\\(13.5*48, 60*48\\); g.cameras.main.setZoom\\(2.5\\); new Promise\\(r=>setTimeout\\(\\(\\)=>{const w=g.cameras.main.getWorldPoint\\(200,495\\); r\\([Math.round\\(w.x\\),Math.round\\(w.y\\), g.children.list.filter\\(o=>o.texture&&o.texture.key==='\\\\''cliffs'\\\\''&&o.getBounds\\(\\).contains\\(w.x,w.y\\)\\).map\\(o=>[o.frame.name,o.x,o.y,o.flipX,o.displayWidth,o.displayHeight, o.isCropped]\\)]\\)},800\\)\\)' 300)",
+      "Bash(node shot.js /dev/null \"const L=g.children.list.filter\\(o=>o.texture&&o.texture.key==='cliffs'\\); const near=L.filter\\(o=>Math.abs\\(o.x-13*48\\)<150&&Math.abs\\(o.y-61*48\\)<150\\).map\\(o=>[o.frame.name,o.x,o.y,o.flipX,o.displayWidth,o.displayHeight,o.depth]\\); [L.length, L.filter\\(o=>o.displayWidth>20\\).length, near]\" 200)",
+      "Bash(pkill -f \"http.server 8123\")"
+    ],
+    "additionalDirectories": [
+      "/Users/ing/Downloads/sandip/Main_Portfolio/tools"
+    ]
+  }
+}
