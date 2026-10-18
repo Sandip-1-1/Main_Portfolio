@@ -1,0 +1,20 @@
+{
+  "manifest_version": "1.0",
+  "asset_root": "assets/audio/",
+  "effects": {
+    "footstep": {
+      "file": "step.ogg",
+      "trigger_frames": [1, 5],
+      "animation": "walk",
+      "fps": 10
+    },
+    "door_open": {
+      "file": "door opening and closing.mp3",
+      "offset_seconds": 0
+    },
+    "door_close": {
+      "file": "door opening and closing.mp3",
+      "offset_seconds": 0.45
+    }
+  }
+}

@@ -1,0 +1,14 @@
+Park Ambiences by Thimras
+Source: https://opengameart.org/content/park-ambiences
+Files used: park_ambience_birds.wav, park_ambience_river.wav,
+park_ambience_wind.wav (trimmed and compressed as birds.ogg, river.ogg,
+wind.ogg; portal.ogg and step.ogg are transformed excerpts of the wind source)
+License: Creative Commons Zero v1.0 Universal (CC0 1.0)
+
+Chill lofi inspired [loop edit]
+Original music by omfgdude; seamless-loop edit by qubodup
+Source: https://opengameart.org/content/chill-lofi-inspired-loop-edit
+File used: chilllofir-loop.ogg (distributed as chill-lofi.ogg)
+License: Creative Commons Zero v1.0 Universal (CC0 1.0)
+
+CC0 legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
